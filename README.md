@@ -46,4 +46,5 @@
 > [Exceções](https://www.php.net/manual/pt_BR/spl.exceptions.php) que já vem com o php
 
 - `LogicException` mal uso da linguagem
+    - Foi recomendada `DomainException` para exceções de regra de negócio ([link](https://www.php.net/manual/pt_BR/class.domainexception.php)), mas não sei se faz muito sentido pois parece ter mais haver quando tratamos somente parâmetros de funções ([exemplo](https://www.php.net/manual/pt_BR/class.domainexception.php#106241))
 - `RuntimeException` só pode ser encontrado durante a execução
