@@ -38,5 +38,12 @@
                        +-------------------------------+
 ```
 
-- `Error` é somente para desenvolvimento interno do php, não criamos/extendemos Error
+- `Error` é somente para desenvolvimento interno do php, não criamos/extendemos erros.
 - `Exceptions` podem ser criadas/extendidas para regras de negócio da aplicação.
+
+### Exceptions builtin
+
+> [Exceções](https://www.php.net/manual/pt_BR/spl.exceptions.php) que já vem com o php
+
+- `LogicException` mal uso da linguagem
+- `RuntimeException` só pode ser encontrado durante a execução
